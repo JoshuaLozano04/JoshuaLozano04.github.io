@@ -99,8 +99,9 @@ section ul {
     margin-right: 30px;
 }
 .project-container {
+    display: flex;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 3fr));
     gap: 20px;
 }
 .box {
