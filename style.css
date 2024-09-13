@@ -101,7 +101,7 @@ section ul {
 .project-container {
     display: flex;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 3fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px, 3fr));
     gap: 20px;
 }
 .box {
