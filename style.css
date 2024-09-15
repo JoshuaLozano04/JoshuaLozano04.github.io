@@ -11,7 +11,16 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
 }
-
+.home-logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.home-logo:hover {
+    color: #555;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -133,17 +142,6 @@ body {
     height: 40px;
     border-radius: 50%; 
     background-color: #323232; 
-}
-.home-logo {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-}
-
-.home-logo:hover {
-    color: #555;
 }
 .socials a:hover {
     color: #007bff; 
