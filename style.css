@@ -135,7 +135,6 @@ body {
     list-style-type: none;
     text-decoration: none;
     display: flex;
-    display: flex;
     padding: 30px 45px;
     gap: 20px;
 }
@@ -162,21 +161,4 @@ body {
 .socials a:active {
     color: #A3C2C2; 
     background-color: #b0b0b0; 
-}
-
-footer {
-    text-align: center;
-    background-color: #f4f4f4;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }

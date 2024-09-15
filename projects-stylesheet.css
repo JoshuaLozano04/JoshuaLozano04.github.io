@@ -122,3 +122,34 @@ body {
     right: 10px; /* Move the arrow out */
     opacity: 1;  /* Make the arrow visible */
 }
+.socials ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    padding: 30px 25px;
+    gap: 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #A3C2C2;
+    font-size: 24px; 
+    transition: color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    background-color: #323232; 
+}
+.socials a:hover {
+    color: #007bff; 
+    background-color: #d0d0d0; 
+    transform: scale(1.2);
+}
+
+.socials a:active {
+    color: #A3C2C2; 
+    background-color: #b0b0b0; 
+}
