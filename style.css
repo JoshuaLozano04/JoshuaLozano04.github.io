@@ -16,7 +16,7 @@ body {
     background-image: url(Res/dr4.jpg);
     font-family: Arial, sans-serif;
     color: #333;
-    background-repeat:no-repeat;
+    background-repeat: repeat-x;
     background-size:cover;
     background-attachment: fixed;
 }
