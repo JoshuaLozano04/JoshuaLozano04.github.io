@@ -86,7 +86,7 @@ body {
 .introduction-section {
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 50vw;
     width: 100%;
     height: 50vh;
     margin: 0 auto;
