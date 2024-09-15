@@ -5,142 +5,64 @@
 }
 
 body {
+    background-image: url(Res/dr4.jpg);
     font-family: Arial, sans-serif;
-    background-color: #080808;
     color: #333;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
-    border-radius: 25px;
-    background-color: #141315;
-    color: white;
-    padding: 10px 0;
-    align-self: center;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    padding: 50px 0;
-}
-section ul {
-    list-style-type: none;
-}
-
-.pfp{
-    width: 300px;
-    height: auto;
-    border-radius: 50%;
-}
-
-.home-section {
-    background-color: #141315;
-    border-radius: 25px;
-    color: white;
-    font-size: larger;
-    align-self: center;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.about-section {
-    background-color: #141315;
-    color: white;
-    font-size: larger;
-    text-align: center;
-    border-radius: 25px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.skills-section {
-    font-size: larger;
-    background-color: #141315;
-    border-radius: 25px;
-    color: white;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.projects-section {
-    border-radius: 25px;
-    font-size: larger;
-    background-color: #141315;
-    color: white;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.project-container {
+.navbar {
     display: flex;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px, 3fr));
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
 }
-.box {
-    padding: 10px;
-    background-color: rgb(41, 39, 43);
-    margin: 10px;
-    border-radius: 25px;
+
+.navbar .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
 }
-.box p {
-    margin: 25;
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.introduction-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+.name {
+    margin: 30px;
+    font-size: 30px;
+}
+.description {
+    margin: 30px;
+    font-size: 15px;
     text-align: justify;
 }
-.project1 {
-    background-color: #1f1e21;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    max-height: 40px;
-    max-width: 100%;
-}
-.project2 {
-    background-color: #1f1e21;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    max-height: 40px;
-    max-width: 100%;
-}
-.contact-section {
-    border-radius: 25px;
-    background-color: #141315;
-    color: white;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.contact-section a {
-    text-decoration: none;
-    color: white;
-}
-
