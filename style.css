@@ -19,6 +19,17 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
 .home-logo {
     font-size: 25px;
     color: white;
