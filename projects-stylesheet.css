@@ -53,7 +53,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: #555;
+    background-color: #A3C2C2;
     border-radius: 5px;
 }
 .home-logo {
@@ -65,7 +65,7 @@ body {
 }
 
 .home-logo:hover {
-    color: #555;
+    color: #A3C2C2;
 }
 
 .projects-container {
@@ -145,7 +145,7 @@ body {
 }
 .socials a:hover {
     color: #007bff; 
-    background-color: #d0d0d0; 
+    background-color: #A3C2C2; 
     transform: scale(1.2);
 }
 
