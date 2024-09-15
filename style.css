@@ -3,8 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 body {
+    animation: fadeIn 1.5s ease-out;
     background-image: url(Res/dr4.jpg);
     font-family: Arial, sans-serif;
     color: #333;
@@ -19,7 +28,7 @@ body {
     align-items: center;
 }
 .home-logo:hover {
-    color: #555;
+    color: #A3C2C2;
 }
 .navbar {
     display: flex;
@@ -54,7 +63,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: #555;
+    background-color: #A3C2C2;
     border-radius: 5px;
 }
 
@@ -86,6 +95,7 @@ body {
 }
 
 .name {
+    color: #A3C2C2;
     margin: 30px;
     font-size: 30px;
 }
@@ -113,7 +123,7 @@ body {
     transition: right 0.3s ease, opacity 0.3s ease;
 }
 .btn-arrow:hover {
-    padding-right: 40px; /* Increase space to make room for the arrow */
+    padding-right: 30px; /* Increase space to make room for the arrow */
 }
 
 .btn-arrow:hover::after {
@@ -132,7 +142,7 @@ body {
 
 .socials a {
     text-decoration: none;
-    color: #2b00ff;
+    color: #A3C2C2;
     font-size: 24px; 
     transition: color 0.3s, transform 0.3s;
     display: flex;
@@ -150,7 +160,7 @@ body {
 }
 
 .socials a:active {
-    color: #0056b3; 
+    color: #A3C2C2; 
     background-color: #b0b0b0; 
 }
 
