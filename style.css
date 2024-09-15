@@ -57,6 +57,25 @@ body {
     margin: 0 auto;
     color: white;
 }
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+}
+.about-me a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+.description-contianer {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .name {
     margin: 30px;
     font-size: 30px;
@@ -65,4 +84,81 @@ body {
     margin: 30px;
     font-size: 15px;
     text-align: justify;
+}
+.btn-arrow {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    position: relative;
+    padding-right: 30px;
+    transition: padding-right 0.3s ease;
+}
+.btn-arrow::after {
+    content: "→"; /* Right arrow */
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: right 0.3s ease, opacity 0.3s ease;
+}
+.btn-arrow:hover {
+    padding-right: 40px; /* Increase space to make room for the arrow */
+}
+
+.btn-arrow:hover::after {
+    right: 10px; /* Move the arrow out */
+    opacity: 1;  /* Make the arrow visible */
+}
+
+.socials ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    display: flex;
+    padding: 30px 45px;
+    gap: 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #2b00ff;
+    font-size: 24px; 
+    transition: color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    background-color: #323232; 
+}
+
+.socials a:hover {
+    color: #007bff; 
+    background-color: #d0d0d0; 
+    transform: scale(1.2);
+}
+
+.socials a:active {
+    color: #0056b3; 
+    background-color: #b0b0b0; 
+}
+
+footer {
+    text-align: center;
+    background-color: #f4f4f4;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
